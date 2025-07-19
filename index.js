@@ -1,19 +1,22 @@
 // index.js
 // Main file for the Crimson City Chronicles Telegram Bot
 
+// index.js
+// Main file for the Crimson City Chronicles Telegram Bot
+
 import TelegramBot from 'node-telegram-bot-api';
 import dotenv from 'dotenv';
-import { I18n } from 'i18n';
-import path from 'path';
-import fs from 'fs';
+// ... other imports
 
 // --- Basic Setup ---
 dotenv.config();
 
 // --- Configuration ---
-// IMPORTANT: These should be set as environment variables on your hosting platform (like Render).
 const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN || 'YOUR_TELEGRAM_BOT_TOKEN';
+console.log("Bot is attempting to start with token:", TELEGRAM_TOKEN); // <--- ADD THIS LINE
 const ADMIN_USER_ID = parseInt(process.env.ADMIN_USER_ID || '123456789', 10);
+
+// ... rest of the code
 
 // --- Localization (i18n) Setup ---
 const i18n = new I18n({
