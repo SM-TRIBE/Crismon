@@ -1,0 +1,51 @@
+{
+	"voice_prompt": "To ensure the quality of our community, you must be approved by an admin. Please send a voice message stating your character name and age.",
+	"approval_pending": "Your request has been sent for approval. Please wait for an admin to review it. You will be notified.",
+	"approval_success": "✅ You have been approved! Welcome to Crimson City. Let's create your character.",
+	"voice_already_submitted": "You have already submitted a voice message for approval or are already approved.",
+	"welcome_back": "Welcome back, {{name}}. The city awaits.",
+	"character_creation_name": "The city doesn't know you yet. What name will you be known by?",
+	"character_creation_profession": "And what is your trade? How did you make your way in this world?",
+	"prof": {
+		"hustler": "Street Hustler",
+		"intellectual": "Intellectual",
+		"charmer": "Charmer"
+	},
+	"character_creation_complete": "Very well, {{name}}. Your story in Crimson City begins now.",
+	"main_menu_prompt": "What's your next move?",
+	"menu": {
+		"look": "🔎 Look Around",
+		"move": "🗺️ Move",
+		"profile": "👤 Profile",
+		"language": "🌐 Language",
+		"inventory": "🎒 Inventory"
+	},
+	"profile_view": "👤 *Profile*\n\n*Name:* {{name}}\n*Profession:* {{profession}}\n*VIP Status:* {{vip_status}}\n\n*Currency:* {{currency}} CC\n\n*Stats:*\n- Charm: {{charm}}\n- Intellect: {{intellect}}\n- Street Smarts: {{street_smarts}}",
+	"move_prompt": "Where do you want to go?",
+	"move_success": "You arrive at {{location}}.",
+	"back_button": "Back",
+	"places_in_district": "You see a few places of interest",
+	"npcs_in_area": "People here",
+	"talk_to": "Talk to",
+	"god_presence": "You feel an overwhelming presence. The God of this City is here.",
+	"inventory_empty": "Your pockets are empty.",
+	"vip_status": {
+		"yes": "Yes",
+		"no": "No"
+	},
+	"broadcast_header": "A message echoes through the city:",
+	"whisper_header": "A voice whispers directly into your mind:",
+	"map": {
+		"downtown": { "name": "Downtown", "description": "Towering skyscrapers and luxury apartments dominate the skyline. The air hums with power and ambition." },
+		"neon_district": { "name": "Neon District", "description": "A vibrant, chaotic district buzzing with nightlife. Music spills from every doorway." },
+		"industrial_zone": { "name": "Industrial Zone", "description": "A gritty, working-class area of factories and warehouses. The smell of metal and sweat hangs in the air." },
+		"the_plaza": { "name": "The Plaza", "description": "An open-air plaza with a grand fountain at its center. A place for the public to gather." }
+	},
+	"locations": {
+		"the_onyx_bar": { "name": "The Onyx Bar" },
+		"vip_lounge": { "name": "The VIP Lounge" }
+	},
+	"npcs": {
+		"slick_the_bartender": { "name": "Slick, the Bartender", "dialogue": "'What can I get for you? See a lot of faces in here. Some win, some lose. The city always collects.'" }
+	}
+}
