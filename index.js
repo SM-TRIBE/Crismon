@@ -12,7 +12,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 // --- Configuration ---
-const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN || 'YOUR_TELEGRAM_BOT_TOKEN';
+const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN || '7786508141:AAHUpfhZSt3fKXB6Wdfh9xinXkfAS0v8l_k';
 console.log("Bot is attempting to start with token:", TELEGRAM_TOKEN); // <--- ADD THIS LINE
 const ADMIN_USER_ID = parseInt(process.env.ADMIN_USER_ID || '123456789', 10);
 
