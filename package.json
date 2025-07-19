@@ -1,0 +1,23 @@
+{
+  "name": "crimson-city-chronicles-js",
+  "version": "1.0.0",
+  "description": "A bilingual text-based RPG for Telegram.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "rpg",
+    "game"
+  ],
+  "author": "Gemini",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "i18n": "^0.15.1",
+    "node-telegram-bot-api": "^0.64.0"
+  }
+}
